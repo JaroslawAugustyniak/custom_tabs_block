@@ -14,7 +14,10 @@
     "gutenberg",
     "tabs"
   ],
-  "author": "",
+  "author": "Jarosław Augustyniak <ai@awcg.pl>",
+  "contributors": [
+    "Jarosław Augustyniak <ai@awcg.pl>"
+  ],
   "license": "GPL-2.0-or-later",
   "devDependencies": {
     "@wordpress/scripts": "^26.0.0"
