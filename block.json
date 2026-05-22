@@ -1,0 +1,28 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "custom-tabs-block/tabs",
+  "title": "Custom Tabs Block",
+  "category": "common",
+  "icon": "layout",
+  "description": "A flexible block for managing multi-level tabs and sections",
+  "supports": {
+    "html": false
+  },
+  "attributes": {
+    "items": {
+      "type": "array",
+      "default": [
+        {
+          "id": "item-1",
+          "title": "Tab 1",
+          "description": "Description",
+          "buttonText": "Button",
+          "buttonUrl": "",
+          "children": []
+        }
+      ]
+    }
+  },
+  "textdomain": "custom-tabs-block"
+}

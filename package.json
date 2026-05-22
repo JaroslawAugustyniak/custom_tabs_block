@@ -1,0 +1,22 @@
+{
+  "name": "custom-tabs-block",
+  "version": "1.0.0",
+  "description": "Custom block for managing multi-level tabs/sections structure",
+  "main": "index.php",
+  "scripts": {
+    "build": "wp-scripts build",
+    "dev": "wp-scripts start",
+    "start": "wp-scripts start"
+  },
+  "keywords": [
+    "wordpress",
+    "block",
+    "gutenberg",
+    "tabs"
+  ],
+  "author": "",
+  "license": "GPL-2.0-or-later",
+  "devDependencies": {
+    "@wordpress/scripts": "^26.0.0"
+  }
+}
